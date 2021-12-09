@@ -1,0 +1,21 @@
+package main;
+import "fmt";
+
+type ty struct {
+    bar int;
+};
+
+func main() {
+    var f1 *ty;
+    numberMethod();
+    f1 = foo();
+    f1.bar = 2;
+
+    b = !true || false;
+
+    foo((3 > 4) && (a <= 5));
+    b = 3 > 4 && true || -a >= 5 || -a != -3 || !b && 3 == 4;
+    foo(a >= b);
+
+    foo(k != 0);
+}

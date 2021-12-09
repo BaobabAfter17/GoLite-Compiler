@@ -1,0 +1,21 @@
+package main;
+import "fmt";
+
+func multiple(a int, b int) int {
+
+	// take two integers and return their product
+	var i, sum int;
+	i = 1;
+	sum = 0;
+	for (i <= b) {
+		sum = sum + a;
+		i = i + 1;
+	}
+	return sum;
+}
+
+func main() {
+	var a, b int;
+ 	a = multiple(2, 3);
+	return;
+}

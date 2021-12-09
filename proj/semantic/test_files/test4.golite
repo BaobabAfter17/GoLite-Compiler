@@ -1,0 +1,17 @@
+package main;
+import "fmt";
+type Node struct {
+	val int;
+	next *Node;
+};
+
+func main() {
+    var a int;
+    if (1) {
+        a = 1;
+    }
+
+    for (a) {
+        a = true;
+    }
+}

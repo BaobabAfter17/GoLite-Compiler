@@ -1,0 +1,14 @@
+package main;
+import "fmt";
+
+type Node struct {
+	val int;
+	next *BadNode;
+};
+
+type BadNode struct {
+	val int;
+	next *Node;
+};
+
+func main() {}

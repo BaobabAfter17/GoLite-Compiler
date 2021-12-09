@@ -1,0 +1,15 @@
+package main;
+import "fmt";
+type Node struct {
+	val int;
+	next *Node;
+};
+
+func main() {
+    var a *Node;
+    var b int;
+    a = new(Node, 1);
+    a = new(Node);
+    delete(b);
+    delete(1);
+}

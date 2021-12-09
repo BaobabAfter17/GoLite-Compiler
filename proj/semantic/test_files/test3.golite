@@ -1,0 +1,8 @@
+package NotAllowed;
+import "fmt";
+type Node struct {
+	val int;
+	next *Node;
+};
+
+func main() {}
